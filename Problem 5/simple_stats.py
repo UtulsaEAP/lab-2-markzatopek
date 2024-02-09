@@ -7,7 +7,7 @@ def simple_stats():
     product = num1 * num2 * num3 * num4
     average = (num1 + num2 + num3 + num4) / 4.0
     
-    print(f"{int(round(product, 0))} {int(round(product, 0))}")
+    print(f"{int(round(product, 0))} {int(round(average, 0))}")
     print(f"{product:.3f} {average:.3f}")
     
 if __name__ == "__main__":
