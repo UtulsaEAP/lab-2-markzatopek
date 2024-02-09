@@ -3,7 +3,8 @@ def right_arrow():
     head_char = input()
 
     row1 = '      ' + head_char
-    ''' Type your code here. '''
+    row2 = 6 * base_char + 2 * head_char
+    row3 = 6 * base_char + 3 * head_char
 
     print(row1)
     print(row2)
